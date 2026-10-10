@@ -1,0 +1,12 @@
+algoritmo "Exercicio_05"
+var
+   numero: inteiro
+inicio
+   escreva("Digite um número inteiro: ")
+   leia(numero)
+   se numero mod 2 = 0 entao
+      escreval("O número é PAR.")
+   senao
+      escreval("O número é ÍMPAR.")
+   fimse
+fimalgoritmo
